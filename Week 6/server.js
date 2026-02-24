@@ -20,6 +20,12 @@ const path = require("path");
 // The function takes a root directory from which to serve static assets. In this case, we are serving files from the "static" directory.
 app.use(express.static(path.join(__dirname, "static")));
 
+
+// data 
+const directory = require("./data/directory.json");
+console.log(directory);
+
+
 // generate routes
 app.get("/", (req, res) => {
   // sendFile is used to send a file as a response
@@ -60,6 +66,46 @@ res.send(`this is a put response from /api/items/`);
 app.delete("/api/items/:id", (req, res) => {
 res.send(`this is a delete response from /api/items/`);
 });
+
+// directory route 
+app.get("/directory", (req,res)=> {
+  res.render("directory",
+    { people: directory});
+})
+
+app.get("/person/add", (req, res) => {
+  console.log(req.params);
+  console.log(req.query);
+
+  directory.push({
+    id: parseInt(req.query.id),
+    first_name: req.query.first_name,
+    last_name: req.query.last_name,
+    email: req.query.email,
+    address: req.query.address,
+    city: req.query.city,
+    state: req.query.state,
+    zip: req.query.zip,
+  });
+  
+  console.log(directory);
+
+  res.send("add-person");
+
+});
+
+app.get("/directory/:id", (req,res)=> {
+  const id = req.params.id;
+  console.log(id);
+
+  let person = directory.find((p) => p.id == id);
+
+
+  res.render("person", {
+    person: person, 
+    title: person.first_name + " " + person.last_name,
+  });
+})
 
 // start the server
 app.listen(port, () => {
