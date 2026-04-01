@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "69cc6ee23607958da640ca99"
+  },
+  "url": "/images/hp1.jpg",
+  "caption": "The soft skies of Pastel Realm",
+  "gallery": {
+    "$oid": "69cc6a493607958da640ca97"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc6eec3607958da640ca9d"
+  },
+  "url": "/images/hp2.jpg",
+  "caption": "Plastika's neon skyline at dusk",
+  "gallery": {
+    "$oid": "69cc6a493607958da640ca97"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc70343607958da640ca9f"
+  },
+  "url": "/images/hp3.jpg",
+  "caption": "A velvet alley in the Noir District",
+  "gallery": {
+    "$oid": "69cc6a493607958da640ca97"
+  },
+  "__v": 0
+}]
