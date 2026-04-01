@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "69cc73363607958da640caa5"
+  },
+  "page": "destinations",
+  "name": "Pastel Realm",
+  "description": "Pastel Realm is a dreamy dimension where every skyline is blush pink, every cobblestone is lavender, and the locals dress exclusively in soft, cloud-like hues. Travelers come here to decompress, shop gradient-dyed silks, and attend floating runway shows above cotton candy clouds.",
+  "image": "/images/pastelrealm.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc7c6660d1e21effc12d4f"
+  },
+  "page": "destinations",
+  "name": "Noir District",
+  "description": "The Noir District is a perpetually midnight city draped in velvet shadows and gold lamplight, where fashion is dark, dramatic, and deliberately mysterious. Its underground ateliers craft avant-garde black looks while jazz echoes through cobblestone alleys.",
+  "image": "/images/noirdistrict.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc7c8560d1e21effc12d51"
+  },
+  "page": "destinations",
+  "name": "Plastika",
+  "description": "Plastika is a futuristic eco-city built entirely from reclaimed and upcycled plastic, where sustainable fashion is not just a trend — it's the law. Neon-tinted skyscrapers tower over streets lined with designers who turn ocean waste into wearable art.",
+  "image": "/images/plastika.jpg",
+  "__v": 0
+}]

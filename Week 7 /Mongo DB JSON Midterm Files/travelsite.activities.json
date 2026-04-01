@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "69cc752a3607958da640caa9"
+  },
+  "name": "Gradient Dye Workshop",
+  "description": "Learn to hand-dye silk scarves in ombre pastels using traditional Realm techniques.",
+  "image": "/images/pastela2.jpg",
+  "cost": 75,
+  "destination": {
+    "$oid": "69cc73363607958da640caa5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc75353607958da640caab"
+  },
+  "name": "Cloud Couture Runway",
+  "description": "Walk a suspended runway 300 feet above the Blush Plains and model the season's softest looks.",
+  "image": "/images/pastela1.jpg",
+  "cost": 75,
+  "destination": {
+    "$oid": "69cc73363607958da640caa5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc75743607958da640cab0"
+  },
+  "name": "FREE Cotton Candy Market Tour",
+  "description": "Stroll through an open-air market of pastel accessories, jewelry, and dreamy editorial pieces.",
+  "image": "/images/pastela3.jpg",
+  "cost": 0,
+  "destination": {
+    "$oid": "69cc73363607958da640caa5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc7d8977c07f862a48c53a"
+  },
+  "name": "Velvet Tailoring Class",
+  "description": "Learn to cut and hand-stitch a velvet garment piece with a master tailor in a candlelit studio.",
+  "image": "/images/noira3.jpg",
+  "cost": 85,
+  "destination": {
+    "$oid": "69cc7c6660d1e21effc12d4f"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc7d8f77c07f862a48c53c"
+  },
+  "name": "Dark Editorial Photoshoot",
+  "description": "Book a fully styled editorial shoot with a Noir District photographer in the iconic alley backdrops.",
+  "image": "/images/noira2.jpg",
+  "cost": 150,
+  "destination": {
+    "$oid": "69cc7c6660d1e21effc12d4f"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc7d9577c07f862a48c53e"
+  },
+  "name": "Midnight Atelier Tour",
+  "description": "Get a private after-hours tour of the District's most secretive fashion ateliers and meet the designers.",
+  "image": "/images/noira1.jpg",
+  "cost": 60,
+  "destination": {
+    "$oid": "69cc7c6660d1e21effc12d4f"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc7e3477c07f862a48c54e"
+  },
+  "name": "Ocean Haul Design Lab",
+  "description": "Collaborate with a local designer to turn real reclaimed ocean plastic into a wearable accessory.",
+  "image": "/images/plastikaa1.jpg",
+  "cost": 95,
+  "destination": {
+    "$oid": "69cc7c8560d1e21effc12d51"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc7e3d77c07f862a48c550"
+  },
+  "name": "FREE Neon Thrift Crawl",
+  "description": "Hop between Plastika's famous upcycle boutiques hunting for one-of-a-kind recycled fashion finds.",
+  "image": "/images/plastikaa2.jpg",
+  "cost": 0,
+  "destination": {
+    "$oid": "69cc7c8560d1e21effc12d51"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc7e4577c07f862a48c552"
+  },
+  "name": "Sustainable Sneaker Build",
+  "description": "Build your own pair of sneakers from recycled rubber and reclaimed fabric in a guided workshop.",
+  "image": "/images/plastikaa3.jpg",
+  "cost": 120,
+  "destination": {
+    "$oid": "69cc7c8560d1e21effc12d51"
+  },
+  "__v": 0
+}]
